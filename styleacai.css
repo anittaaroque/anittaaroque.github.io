@@ -3,5 +3,8 @@ h2{
 }
 article{
     background-color: bisque;
-
+}
+p{
+    text-align: justify;
+    margin: auto;
 }
