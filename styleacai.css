@@ -1,5 +1,7 @@
 h2{
-    color: blueviolet;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 92, 143);
 }
 article{
     background-color: bisque;
@@ -7,4 +9,28 @@ article{
 p{
     text-align: justify;
     margin: auto;
+}
+.mangoftacai{
+    width: 200px;
+    height: 200px;
+    
+}
+.bolacai{
+    width:250px;
+    height:200px;
+}
+.mangui{
+    width: 250px;
+    height: 200px;
+}
+figure{
+    text-align: center;
+}
+h3{
+    color: rgb(102, 23, 177);
+    text-decoration: underline rgb(143, 92, 143);
+    
+}
+body{
+    margin: 100px;
 }
