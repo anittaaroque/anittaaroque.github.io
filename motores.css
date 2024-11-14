@@ -1,37 +1,45 @@
-body{
-
-    background-image: url('imagenes/mazda1.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed;    
-}
-main{
-    margin: 5%;
-}
-
 h1{
-    text-align: center;
-    background-color: blanchedalmond;
+    text-align:center;
 }
-ol{
-    text-align: center;
-    width: 100%;
-    padding: 0%;
-   
+h2{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 92, 143);
 }
 li{
-    list-style: none;
     display: inline;
-    color: white;
-    text-align: center;
-    background-color: black;
     padding: 10px;
+    background-color: plum;
+}
+li+li{
+    background-color: red;
+}
+li+li+li{
+    background-color: blue;
+}
+li+li+li+li{
+    background-color: orange;
 }
 p{
     text-align: justify;
+    margin: auto;
 }
-footer{
+.mangoftacai{
+    width: 300px;
+    height: 300px;
+    
+}
+.bolacai{
+    width:350px;
+    height:300px;
+}
+.mangui{
+    width: 350px;
+    height: 300px;
+}
+figure{
     text-align: center;
-    color: rgb(255, 174, 0);
-    background-color: black;
+}
+body{
+    margin: 30px;
 }
