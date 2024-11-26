@@ -1,56 +1,138 @@
-h1{
-    text-align:center;
+
+body {
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
-h2{
-    
-    color: rgb(255, 255, 255);
-    background-color: rgb(143, 92, 143);
-}
-ol{
+header {
+    background-color: #8f5c8f; 
+    padding: 20px;
     text-align: center;
-    width: 100%;
-    padding: 0%;
-   
 }
-body
-li{
-    list-style: none;
-    display: inline;
-    color: white;
+h1 {
+    font-family: "Titan one";
+    font-style: normal;
+    color: #f0cd1a;
     text-align: center;
-    background-color: black;
-    padding: 10px;
+    font-size: 2.5em;
+    margin: 10px;
+}
+h2 {
+    color:#f0cd1a;
+    background-color: #8f5c8f;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+nav {
+    text-align: center;
+}
+ol {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+#ejemplo {
+    text-align: right;
+    width: 38%;
+    display: inline-block;
+    margin-top: 20px; 
+    vertical-align: top; 
 }
 
-li+li{
-    background-color: red;
+#texto-fotitos {
+    text-decoration: none;
+    width: 50%; 
+    margin-left: 35px;
+    display: inline-block; 
+    vertical-align: top;
 }
-li+li+li{
-    background-color: blue;
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
 }
-li+li+li+li{
-    background-color: orange;
+li:hover {
+    background-color: #f39c12;
 }
-p{
-    text-align: justify;
-    margin: auto;
+figure {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
 }
-.mangoftacai{
-    width: 300px;
-    height: 300px;
+.bolacai, .mangui {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#ejemplo {
+    text-align: right;
+    width: 38%; 
+    display: inline-block;
+    margin-top: 20px; 
+    vertical-align: top;
+}
+.mangoftacai {
+    width: 90%; 
+    height: auto; 
+    border-radius: 10px;
     
 }
-.bolacai{
-    width:350px;
-    height:300px;
+article {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
 }
-.mangui{
-    width: 350px;
-    height: 300px;
+article h2 {
+    color: #f0cd1a;
+    font-size: 1.5em;
 }
-figure{
+
+article h3 {
+    color: #f39c12;
+}
+
+article p {
+    text-align: justify;
+}
+#enlaces-ingredientes{
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+footer {
     text-align: center;
+    background-color: #8f5c8f;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
-body{
-    margin: 30px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
