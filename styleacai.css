@@ -1,4 +1,5 @@
 
+
 body {
     font-family: "Lato";
     margin: 0;
@@ -38,9 +39,9 @@ ol {
     display: inline-block;
     justify-content: center;
 }
-#ejemplo {
+#foto1 {
     text-align: right;
-    width: 38%;
+    width: 42%;
     display: inline-block;
     margin-top: 20px; 
     vertical-align: top; 
@@ -122,17 +123,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
