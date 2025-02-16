@@ -1,127 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body butter de Mango y Açai</title>
+    <meta name="keywords" content="Cremas naturales, mango, açai, cuidado de la piel">
+    <meta name="description" content="Aprende cómo hacer tu propia crema de Mango y Açai, el fruto en tendencia este 2024">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://anittaaroque.github.io">
+    <link rel="stylesheet" href="css_web.css">
+    <link rel="icon" href="./Imagenes/acaifttmango.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Titan+One&display=swap" rel="stylesheet">
 
-body {
-    font-family: "Lato";
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: auto;
-}
-header {
-    background-color: #8f5c8f; 
-    padding: 20px;
-    text-align: center;
-}
-h1 {
-    font-family: "Titan one";
-    font-style: normal;
-    color: #f0cd1a;
-    text-align: center;
-    font-size: 2.5em;
-    margin: 10px;
-}
-h2 {
-    color:#f0cd1a;
-    background-color: #8f5c8f;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.8em;
-    margin-top: 10px;
-}
-nav {
-    text-align: center;
-}
-ol {
-    text-decoration: none;
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
-    display: inline-block;
-    justify-content: center;
-}
-#foto1 {
-    text-align: right;
-    width: 42%;
-    display: inline-block;
-    margin-top: 20px; 
-    vertical-align: top; 
-}
+    <!-- Marcado JSON-LD generado por el Asistente para el marcado de datos estructurados de Google. -->
+<script type="application/ld+json">
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "name": "Body butter de Mango y Açai, el fruto de moda",
+    "author": {
+      "@type": "Person",
+      "name": "Ana Margarita"
+    },
+    "image": "https://anittaaroque.github.io/Imagenes/mangui.webp"
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "name": "Body butter de Mango y Açai, el fruto de moda",
+    "author": {
+      "@type": "Person",
+      "name": "Ana Margarita"
+    },
+    "image": "https://anittaaroque.github.io/Imagenes/acaiftmango.webp",
+    "articleSection": "Ingredientes",
+    "articleBody": "30ml de aceite de açai</LI>\n                    <LI>60 gramos de manteca de Mango</LI>\n                    <LI>20 gramos de manteca de Karité</LI>\n                    <P>Opcional</P>\n                    <LI>10-12 gotas de aceite de argán u otro aceite de prefencia personal</LI>\n                    <LI>10-15 gotas de aceite de almendra</LI>\n                   </UL>\n                   <P>*Recuerda: en el apartado &quot;Consigue los ingredientes&quot;, encontrarás enlaces directos a los ingredientes que vamos a usar.</P>\n                    <P>PROCEDIMIENTO</P>\n                    \n                    Calienta los ingredientes en un bol al baño maría.\n                    Una vez estén disueltos, batir suavemente con una cuchara de madera o plástico. Apartar del fuego y llevarlo al congelador durante 15 minutos.\n                    Sacar nuestra mezcla del congelador y batir a velocidad media por 5 minutos. Llevar al congelador 10 minutos más y batir de nuevo hasta adquirir una consistencia espesa.\n\n                    Añadimos nuestros aceites esenciales al gusto y batimos ligeramente hasta que queden integrados de forma homogénea. Dejar reposar nuestra body butter y envasar en un recipiente de nuestra elección."
+  }
+]
+</script>
+</head>
 
-#texto-fotitos {
-    text-decoration: none;
-    width: 50%; 
-    margin-left: 35px;
-    display: inline-block; 
-    vertical-align: top;
-}
-
-li {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-}
-li:hover {
-    background-color: #f39c12;
-}
-figure {
-    text-align: center;
-    width: 100%;
-    display: inline-block;
-}
-.bolacai, .mangui {
-    width: 30%;
-    height: 30%;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-#ejemplo {
-    text-align: right;
-    width: 38%; 
-    display: inline-block;
-    margin-top: 20px; 
-    vertical-align: top;
-}
-.mangoftacai {
-    width: 90%; 
-    height: auto; 
-    border-radius: 10px;
+<body>
+    <header>
+        <h1>Body butter de Mango y Açai, el fruto de moda</h1>
+        <nav>
+            <ol id="banner">
+                <li><a href="https://anittaaroque.github.io">Home Page</a></li>
+                <li><a href="#enlaces-ingredientes">Consigue los ingredientes</a></li>
+                <li><a href="pagina2.html" target="_blank">Otros enlaces de interés</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
     
-}
-article {
-    background-color: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-article h2 {
-    color: #f0cd1a;
-    font-size: 1.5em;
-}
+    <figure>
+        <img src="./Imagenes/mangui.webp" alt="Mango cortado" class="mangui">
+        <img src="./Imagenes/acai1.webp" alt="Bol de açai" class="bolacai">
+    </figure>
 
-article h3 {
-    color: #f39c12;
-}
+    <h2>Aprende cómo hacer tu propia crema de Mango y Açai, el fruto en tendencia este 2024</h2>
+    <nav>
+        <ol>
+            <li><a href="#acai">¿Qué es el açai?</a></li>
+            <li><a href="#mango">¿Qué es el mango?</a></li>
+            <li><a href="#propiedades-açai">Propiedades del Açai</a></li>
+            <li><a href="#propiedades-mango">Propiedades del Mango</a></li>
+        </ol>
+    </nav>
+     <div id="texto-fotitos">
+        <section>
+            <article>
+                <h2>Ingredientes</h2>
+                <ul>
+                    <li>30ml de aceite de açai</li>
+                    <li>60 gramos de manteca de Mango</li>
+                    <li>20 gramos de manteca de Karité</li>
+                    <p>Opcional</p>
+                    <li>10-12 gotas de aceite de argán u otro aceite de prefencia personal</li>
+                    <li>10-15 gotas de aceite de almendra</li>
+                   </ul>
+                   <p>*Recuerda: en el apartado "Consigue los ingredientes", encontrarás enlaces directos a los ingredientes que vamos a usar.</p>
+                    <p>PROCEDIMIENTO</p>
+                    
+                    Calienta los ingredientes en un bol al baño maría.
+                    Una vez estén disueltos, batir suavemente con una cuchara de madera o plástico. Apartar del fuego y llevarlo al congelador durante 15 minutos.
+                    Sacar nuestra mezcla del congelador y batir a velocidad media por 5 minutos. Llevar al congelador 10 minutos más y batir de nuevo hasta adquirir una consistencia espesa.
 
-article p {
-    text-align: justify;
-}
-#enlaces-ingredientes{
-    text-decoration: none;
-    margin-bottom: 50px;
-}
-footer {
-    text-align: center;
-    background-color: #8f5c8f;
-    color: white;
-    padding: 10px;
-    font-size: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+                    Añadimos nuestros aceites esenciales al gusto y batimos ligeramente hasta que queden integrados de forma homogénea. Dejar reposar nuestra body butter y envasar en un recipiente de nuestra elección.</p>
+            </article>
+        </section>
+    </div>
+    <div id="foto1">
+            <img src="./Imagenes/acaiftmango.webp" alt="Crema de açai y mango" class="mangoftacai">
+    </div>
+        <section id="acai">
+            <article>
+                <h2>¿Qué es el açai?</h2>
+                <p>El açai es una pequeña baya de color violeta, cuyo tamaño varía entre 10 y 14 milímetros, similar al arándano o la uva negra. Se obtiene de la palmera Euterpe oleracea, que crece en la selva amazónica en países como Brasil, Perú, Colombia y Venezuela. Esta fruta es rica en antioxidantes, proteínas y minerales, lo que la convierte en un superalimento.</p>
+            </article>
+        </section>
+        <section id="mango">
+            <article>
+                <h2>¿Qué es el mango?</h2>
+                <p>El mango es una de las frutas tropicales más populares y saludables. De forma ovalada y color amarillo a rojo, tiene una pulpa jugosa que varía en sabor de dulce a ácido. Es una fuente excelente de vitaminas, especialmente vitamina C y A, y contiene minerales esenciales como calcio, hierro y magnesio.</p>
+            </article>
+        </section>
 
+        <section id="propiedades-açai">
+            <article>
+                <h2>Propiedades del Açai</h2>
+                <h3>1. Alimento rico en antioxidantes</h3>
+                <p>El açai posee un 300% más de antioxidantes que una uva, lo que ayuda a combatir los radicales libres y el envejecimiento celular.</p>
+                <h3>2. Aporta hidratos de carbono de calidad</h3>
+                <p>Contiene 30g de azúcar por cada 100g de pulpa, pero en su mayoría son carbohidratos no digeribles, lo que lo hace beneficioso para la salud.</p>
+                <h3>3. Aporta proteínas, aminoácidos y ácidos grasos esenciales</h3>
+                <p>El açai es un excelente complemento para deportistas por su alto contenido de proteínas y aminoácidos, que aportan vitalidad y energía.</p>
+                <h3>4. Mejora el descanso y la recuperación</h3>
+                <p>La vitamina B en el açai ayuda a liberar dopamina y serotonina, mejorando el descanso y la recuperación muscular.</p>
+                <h3>5. Rico en fibra</h3>
+                <p>Contiene 30,9g de fibra por 100g de pulpa, lo que regula el tránsito intestinal y previene el estreñimiento.</p>
+                <h3>6. Beneficios para la piel y el cabello</h3>
+                <p>El açai tiene biotina, que fortalece los folículos capilares y previene la caída del cabello.</p>
+            </article>
+        </section>
+        <section id="propiedades-mango">
+            <article>
+                <h2>Propiedades del Mango</h2>
+                <h3>1. Múltiples propiedades nutricionales</h3>
+                <p>El mango es rico en vitaminas C y E, flavonoides, beta-caroteno, niacina, y minerales como el calcio y el magnesio. También es un excelente antioxidante.</p>
+                <h3>2. Lucha contra el cáncer</h3>
+                <p>Los mangos contienen fenoles como la quercetina, que tienen capacidades preventivas contra el cáncer.</p>
+                <h3>3. Mejora la vista</h3>
+                <p>Una taza de mango proporciona el 25% de la vitamina A diaria recomendada, esencial para una buena visión.</p>
+                <h3>4. Propiedades digestivas</h3>
+                <p>El mango contiene enzimas que ayudan a descomponer las proteínas y mejorar la digestión.</p>
+                <h3>5. Beneficios para la piel</h3>
+                <p>El mango ayuda a mantener la piel hidratada y previene los poros tapados, lo que puede ser beneficioso para quienes sufren de acné.</p>
+                <h3>6. Ayuda a regular el azúcar en sangre</h3>
+                <p>Las hojas de mango ayudan a normalizar los niveles de insulina, lo que es útil para personas con diabetes.</p>
+                <h3>7. Mejora la memoria</h3>
+                <p>El ácido glutámico presente en el mango estimula la memoria y mantiene las células cerebrales activas.</p>
+            </article>
+        </section>
+        <section id="enlaces-ingredientes">
+            <h2>Consigue los ingredientes</h2>
+            <nav>
+                <ol>
+                    <li><a href="https://www.amazon.es/Aceite-Virgen-Acai-Berry-125/dp/B01BOU81P0/ref=sr_1_5?dib=eyJ2IjoiMSJ9." target="_blank">Aceite de açai</a></li>
+            <li><a href="https://www.amazon.es/Mantequilla-mango-org%C3%A1nica-250-g/dp/B0849NRCWM/ref=sr_1_3?dib=eyJ2IjoiMSJ9." target="_blank">Manteca de Mango</a></li>
+            <li><a href="https://www.amazon.es/Manteca-Karit%C3%A9-500g-Refinado-Natural/dp/B07G2DDDFJ/ref=sr_1_9?crid=1U6UUNY20F3YJ&dib=eyJ2IjoiMSJ9." target="_blank">Manteca de Karité</a></li>
+
+                </ol>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        &copy;2024 Ana Margarita
+    </footer>
+</body>
+</html>
