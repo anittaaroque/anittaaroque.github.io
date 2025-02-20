@@ -22,7 +22,7 @@ h1 {
     text-align: center;
     font-size: 2.8em;
     margin: 10px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra en el texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -56,7 +56,7 @@ ol {
     margin-top: 20px; 
     vertical-align: top; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #texto-fotitos {
@@ -77,7 +77,7 @@ li {
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;
-    transition: background-color 0.3s, transform 0.3s ease; /* Transición */
+    transition: background-color 0.3s, transform 0.3s ease; 
 }
 
 li:hover {
@@ -110,7 +110,7 @@ article {
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra de los artículos */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 article h2 {
