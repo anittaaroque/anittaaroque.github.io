@@ -231,12 +231,19 @@
   <section id="formulario">
   <h3>¿Tienes alguna duda o consulta?</h3>
   <form onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje!');">
-    <input type="text" name="nombre" placeholder="Tu nombre" required />
-    <input type="email" name="correo" placeholder="Tu correo electrónico" required />
-    <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea><br>
+    <label for="nombre">Tu nombre</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required /><br>
+
+    <label for="correo">Tu correo electrónico</label><br>
+    <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required /><br>
+
+    <label for="mensaje">Escribe tu mensaje aquí...</label><br>
+    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea><br>
+
     <button type="submit">Enviar mensaje</button>
   </form>
 </section>
+
 <script>
   const formulario = document.getElementById("formularioContacto");
 
