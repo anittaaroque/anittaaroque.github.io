@@ -111,7 +111,7 @@ body{
     }
     .fruta-mango, .fruta-acai {
   display: flex;
-  align-items: left;       /* centra verticalmente */
+  align-items: center;       /* centra verticalmente */
   justify-content: space-evenly;
   gap: 100px;                 /* espacio entre imagen y texto */
   margin-bottom: 40px;       /* separación entre secciones */
