@@ -246,4 +246,36 @@ section > article > div {
     padding: 8px 16px;
   }
 }
+/* === Estilo del botón menú móvil === */
+.menu-moviles {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #59139A;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+/* === Responsivo para móviles === */
+@media (max-width: 768px) {
+    .menu-moviles {
+        display: block;
+    }
+
+    nav div:nth-of-type(2) {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav div:nth-of-type(2).activo {
+        display: block;
+    }
+
+    nav div:nth-of-type(2) ol {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 
