@@ -170,5 +170,14 @@
         </section>
     </main>
     <footer>&copy; 2024 Ana Margarita</footer>
+    <script>
+    const menuMoviles = document.getElementById('menu-moviles');
+    const navLinks = document.querySelector('nav div:nth-of-type(2)');
+
+    menuMoviles.addEventListener('click', () => {
+        navLinks.classList.toggle('activo');
+    });
+</script>
+
 </body>
 </html>
