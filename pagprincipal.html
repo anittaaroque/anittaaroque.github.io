@@ -11,9 +11,11 @@
       margin: 20px;
       background: #fff;
     }
-    img{
-        display: block;
-        margin: auto;
+    img {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+      height: auto;
     }
 
     nav {
@@ -23,14 +25,17 @@
       gap: 20px;
       padding: 10px 20px;
       border-top: 2px solid #59139A;
+      flex-wrap: wrap;
     }
 
     nav ol {
       display: flex;
       gap: 20px;
-      padding:0;
+      padding: 0;
       margin-top: 20px;
       list-style: none;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     nav ol li {
@@ -40,6 +45,7 @@
       font-weight: bold;
       cursor: pointer;
       transition: 0.3s;
+      white-space: nowrap;
     }
 
     nav ol li:hover {
@@ -53,6 +59,7 @@
       align-items: center;
       padding: 20px;
       flex-wrap: wrap;
+      gap: 20px;
     }
 
     h1 {
@@ -60,10 +67,13 @@
       font-size: 50px;
       color: #59139A;
       margin: 10px 0;
+      flex: 1 1 300px;
+      text-align: left;
     }
 
     .imglogo {
       max-width: 180px;
+      flex: 0 0 auto;
     }
 
     .imglogo img {
@@ -82,7 +92,7 @@
 
     .cta {
       text-align: center;
-      margin: 40px;
+      margin: 40px 20px;
     }
 
     .cta a {
@@ -94,6 +104,7 @@
       border-radius: 8px;
       font-size: 1.1rem;
       transition: background 0.3s;
+      display: inline-block;
     }
 
     .cta a:hover {
@@ -104,6 +115,7 @@
     .beneficios {
       max-width: 800px;
       margin: auto;
+      padding: 0 10px;
     }
 
     .beneficios h3,
@@ -126,6 +138,7 @@
       max-width: 800px;
       margin: 40px auto;
       text-align: center;
+      padding: 0 10px;
     }
 
     .testimonios blockquote {
@@ -140,15 +153,20 @@
       max-width: 600px;
       margin: 40px auto;
       text-align: center;
+      padding: 0 10px;
     }
 
-    #formulario input {
+    #formulario input,
+    textarea {
       padding: 10px;
-      margin: 10px;
+      margin: 10px auto;
       width: 80%;
       max-width: 300px;
       border: 1px solid #ccc;
       border-radius: 5px;
+      font-family: "Lato", sans-serif;
+      display: block;
+      box-sizing: border-box;
     }
 
     #formulario button {
@@ -159,22 +177,13 @@
       border-radius: 5px;
       font-weight: bold;
       cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
     }
 
     #formulario button:hover {
       background-color: #FCCA82;
       color: #59139A;
     }
-    textarea {
-  padding: 10px;
-  margin: 10px;
-  width: 80%;
-  max-width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: "Lato", sans-serif;
-}
-
 
     footer {
       font-family: "Lato";
@@ -184,6 +193,73 @@
       text-align: center;
       margin-top: 60px;
       padding: 10px;
+    }
+
+
+    /* ======== Media Queries ======== */
+    @media (max-width: 900px) {
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        flex: 1 1 100%;
+      }
+      .header-img {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .imglogo {
+        max-width: 140px;
+      }
+      nav {
+        flex-direction: column;
+        padding: 10px;
+      }
+      nav ol {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      nav ol li {
+        padding: 10px 15px;
+        font-size: 1rem;
+      }
+      .beneficios ul {
+        padding: 0 10px;
+      }
+      .testimonios blockquote {
+        margin: 10px 5px;
+        padding: 10px;
+      }
+      .cta {
+        margin: 30px 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        margin: 10px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 18px;
+        padding: 10px;
+      }
+      nav ol li {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+      }
+      .cta a {
+        padding: 12px 20px;
+        font-size: 1rem;
+      }
+      #formulario input,
+      textarea {
+        width: 95%;
+        max-width: none;
+      }
     }
   </style>
 </head>
@@ -196,7 +272,8 @@
       <img src="./logo_final_ana.png" alt="Logo" />
     </div>
   </div>
-<nav>
+
+  <nav>
     <ol>
       <li>Body Butter Mango y Açai</li>
       <li>Incluye tu receta</li>
@@ -204,19 +281,23 @@
       <li>Contacto</li>
     </ol>
   </nav>
-  <img src="https://img.freepik.com/vector-gratis/sala-cocina-dibujos-animados-interior-encimera-cocina-electrodomesticos_1441-2009.jpg" alt="">
+
+  <img src="https://img.freepik.com/vector-gratis/sala-cocina-dibujos-animados-interior-encimera-cocina-electrodomesticos_1441-2009.jpg" alt="Cocina" />
+
   <h2>Aprende a preparar tus propios productos naturales para el cuidado corporal</h2>
+
   <section class="beneficios">
     <h3>¿Por qué usar productos naturales?</h3>
     <ul>
-  <li>🌱 No contienen químicos agresivos</li>
-  <li>🌍 Ingredientes ecológicos y sostenibles</li>
-  <li>💧 Respetan tu piel y el medio ambiente</li>
-  <li>🧴 Fáciles de hacer en casa</li>
-</ul>
-
+      <li>🌱 No contienen químicos agresivos</li>
+      <li>🌍 Ingredientes ecológicos y sostenibles</li>
+      <li>💧 Respetan tu piel y el medio ambiente</li>
+      <li>🧴 Fáciles de hacer en casa</li>
+    </ul>
   </section>
-<h2>Opiniones</h2>
+
+  <h2>Opiniones</h2>
+
   <section class="testimonios">
     <h3>Lo que dicen nuestros usuarios</h3>
     <blockquote>“¡Hice la crema de almendra y me encanta cómo me deja la piel! Suave y con un aroma increíble.” - Laura G.</blockquote>
@@ -227,37 +308,27 @@
   <div class="cta">
     <a href="#formulario">Quiero enviar un mensaje</a>
   </div>
-<h2>Comunícate con nosotros</h2>
+
+  <h2>Comunícate con nosotros</h2>
+
   <section id="formulario">
-  <h3>¿Tienes alguna duda o consulta?</h3>
-  <form onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje!');">
-    <label for="nombre">Tu nombre</label><br>
-    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required /><br>
+    <h3>¿Tienes alguna duda o consulta?</h3>
+    <form onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje!');">
+      <label for="nombre">Tu nombre</label><br>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required /><br>
 
-    <label for="correo">Tu correo electrónico</label><br>
-    <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required /><br>
+      <label for="correo">Tu correo electrónico</label><br>
+      <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required /><br>
 
-    <label for="mensaje">Escribe tu mensaje aquí...</label><br>
-    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea><br>
+      <label for="mensaje">Escribe tu mensaje aquí...</label><br>
+      <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea><br>
 
-    <button type="submit">Enviar mensaje</button>
-  </form>
-</section>
-
-<script>
-  const formulario = document.getElementById("formularioContacto");
-
-  formulario.addEventListener("submit", function (e) {
-    e.preventDefault(); // evita recarga de página
-    alert("¡Gracias por tu mensaje!");
-    formulario.reset(); // limpia todos los campos
-  });
-</script>
-
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
 
   <footer>
     &copy; 2024 Ana Margarita - Todos los derechos reservados
   </footer>
-
 </body>
 </html>
