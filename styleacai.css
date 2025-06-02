@@ -163,3 +163,87 @@ section > article > div {
     0 1px 3px rgba(0, 0, 0, 0.06); /* sombra secundaria ligera */
   transition: box-shadow 0.3s ease;
 }
+/* ============================
+   RESPONSIVE DESIGN
+   ============================ */
+@media (max-width: 1024px) {
+  .fruta-mango, .fruta-acai {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .fruta-mango > div:first-child,
+  .fruta-acai > div:first-child,
+  .fruta-mango > div:last-child img,
+  .fruta-acai > div:last-child img {
+    width: 90%;
+  }
+
+  .header-img {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-img header {
+    flex: none;
+    width: 100%;
+  }
+
+  .imgcrema {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav div:nth-of-type(2) ol {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+    padding: 8px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  body {
+    margin: 10px;
+  }
+
+  section > article > div {
+    padding: 15px;
+  }
+
+  .imgcrema img,
+  .fruta-acai img,
+  .fruta-mango img {
+    width: 100%;
+  }
+
+  nav div:nth-of-type(1) img {
+    width: 80px;
+  }
+
+  li {
+    padding: 8px 16px;
+  }
+}
+
