@@ -1,0 +1,79 @@
+body {
+      font-family: "Lato", sans-serif;
+      margin: 20px;
+      background: #fff;
+    }
+    
+    h1 {
+      font-family: "Poetsen One", sans-serif;
+      font-size: 50px;
+      color: #59139A;
+      margin: 10px 0;
+      flex: 1 1 300px;
+      text-align: left;
+    }
+    h2 {
+      text-align: center;
+      background-color: #59139A;
+      color: #FCCA82;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+    footer {
+      font-family: "Lato";
+      font-weight: bold;
+      background-color: #59139A;
+      color: #FCCA82;
+      text-align: center;
+      margin-top: 60px;
+      padding: 10px;
+    }
+    .imglogo {
+      max-width: 180px;
+      flex: 0 0 auto;
+    }
+
+    .imglogo img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    a {
+  display: inline-block;
+  background-color: #FCCA82;
+  color: #3e0e70; 
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+  background-color: #FCCA82; 
+  transform: translateY(-3px);
+}
+.volver-inicio {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.volver-inicio a {
+  display: inline-block;
+  background-color: #59139A;
+  color: #FCCA82;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.volver-inicio a:hover {
+  background-color: #3e0e70;
+  transform: translateY(-3px);
+}
+
+
